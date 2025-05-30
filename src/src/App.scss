@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  &:has(.hidden-overflow) {
+    overflow: hidden;
+  }
+}
+
+.not-visible-title {
+  display: none;
+  visibility: hidden;
+}
+
+
